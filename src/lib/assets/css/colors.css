@@ -1,0 +1,55 @@
+:root {
+	--hue: 231;
+	--swatch-1: oklch(99% 0.05 var(--hue));
+	--swatch-2: oklch(90% 0.1 var(--hue));
+	--swatch-3: oklch(80% 0.2 var(--hue));
+	--swatch-4: oklch(72% 0.25 var(--hue));
+	--swatch-5: oklch(67% 0.31 var(--hue));
+	--swatch-6: oklch(50% 0.27 var(--hue));
+	--swatch-7: oklch(33.23% 0.25 var(--hue));
+	--swatch-8: oklch(25% 0.2 var(--hue));
+	--swatch-9: oklch(13% 0.2 var(--hue));
+	--swatch-10: oklch(7% 0.2 var(--hue));
+
+	--text-1: var(--swatch-10);
+	--text-2: var(--swatch-9);
+	--text-3: var(--swatch-8);
+	--text-4: var(--swatch-7);
+	--text-5: var(--swatch-6);
+	--text-6: var(--swatch-5);
+	--text-7: var(--swatch-4);
+	--text-8: var(--swatch-3);
+	--text-9: var(--swatch-2);
+	--text-10: var(--swatch-1);
+
+	--surface-1: var(--swatch-1);
+	--surface-2: var(--swatch-2);
+	--surface-3: var(--swatch-3);
+	--surface-4: var(--swatch-4);
+	--surface-5: var(--swatch-5);
+	--surface-6: var(--swatch-6);
+	--surface-7: var(--swatch-7);
+	--surface-8: var(--swatch-8);
+	--surface-9: var(--swatch-9);
+	--surface-10: var(--swatch-10);
+
+	--primary: oklch(100% 0 var(--hue));
+	--on-primary: oklch(0% 0 var(--hue));
+}
+
+@supports not (background-color: oklch(0% 0 0)) {
+	:root {
+		--swatch-1: #f3fffc;
+		--swatch-2: #90f4de;
+		--swatch-3: #f3fffc;
+		--swatch-4: #00bfa5;
+		--swatch-5: #00ad95;
+		--swatch-6: #007463;
+		--swatch-7: #00453a;
+		--swatch-8: #002922;
+		--swatch-9: #000a07;
+		--swatch-10: #000201;
+		--primary: #fff;
+		--on-primary: #000;
+	}
+}

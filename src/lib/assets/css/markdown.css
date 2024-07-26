@@ -1,0 +1,24 @@
+.markdown ul,
+.markdown ol {
+	padding: revert;
+}
+.markdown ul {
+	list-style-type: disc;
+}
+
+.markdown ol {
+	list-style-type: decimal;
+}
+
+.markdown ul li ul {
+	list-style-type: circle;
+}
+
+.markdown ul li ul li ul {
+	list-style-type: square;
+}
+
+.markdown pre,
+.markdown code {
+	white-space: normal;
+}

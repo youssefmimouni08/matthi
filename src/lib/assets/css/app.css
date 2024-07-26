@@ -1,0 +1,8 @@
+@import "./colors.css";
+@import "./main.css";
+@import "./markdown.css";
+@import "./animation.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
